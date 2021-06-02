@@ -1,4 +1,4 @@
-# Global Warming Game
+# Help the World
 This is a simple game to help you keep track of your progress when trying to improve your impact on climate change. It contains a possible activity list, and a shop. It will autosave every 10 seconds.
 
 ## Download
