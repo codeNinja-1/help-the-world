@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+		<link rel="stylesheet" href="styles.css">
+    <title>Help the World</title>
+  </head>
+  <body>
+		<div id="home" class="section active">
+			<h1 id="score">0</h1>
+			<h3 id="level">1</h3>
+			<button id="addBtn">Add</button>
+			<button id="shopBtn">Shop</button>
+      <!-- maybe add quests -->
+		</div>
+		<div id="add" class="section">
+      <div id="list">
+
+			</div>
+			<br><br>
+			<button id="addCancelBtn" class="alt">Cancel</button>
+			<br><br>
+		</div>
+		<div id="shop" class="section">
+			<div id="shopList">
+
+			</div>
+			<br><br>
+			<button id="shopCloseBtn" class="alt">Close</button>
+			<br><br>
+		</div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
