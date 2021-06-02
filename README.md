@@ -1,5 +1,5 @@
 # Global Warming Game
-This is a simple game to help you keep track of your progress when trying to improve your impact on climate change. If you feel that this application is unsafe to download, you could try looking at the source code or just not downloading it.
+This is a simple game to help you keep track of your progress when trying to improve your impact on climate change. It contains a possible activity list, and a shop. It will autosave every 10 seconds.
 
 ## Download
 The app runs on [electron](https://www.electronjs.org/). You can download and run a version you can edit with the following commands on MacOS:
